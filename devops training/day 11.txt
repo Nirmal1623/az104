@@ -1,0 +1,14 @@
+WINDOWS FUNDAMENTALS->mukesh kumar sharma
+
+ipconfig /release/renew -> to get a new ip for DHCP & new lease information will be provided.
+
+environment levels
+.work group environment-> by default, all the systems are wg.
+.domain environment -> server OS needed
+
+jump server -> work as a server which gives RDP connection from to another.
+
+warm boot and cold boot
+
+IIS-Internet Information server (windows web server)
+

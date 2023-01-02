@@ -1,0 +1,22 @@
+express route
+virtual wan
+vpn availability mode:
+.active/standby
+.active/active
+
+
+hkey local machine/system/current control set/service/tcp.ip/parameters/Ipenabledrouter -> modify the value to 1.
+
+load balancer
+.session persistance
+
+STORAGE ACCOUNT
+#access levels -> private, blob, container
+
+#access tier
+.hot->RW cost is less, storage cost is more/retrieval rate is fast
+.cool->
+.archive->RW cost is more, storage cost is less (180 days)/retrieval rate is slow
+
+
+azcopy copy "C:\Users\NirmalKumar.VR\Desktop\Nirmal\DEVOPS\Training\AZ-104-MicrosoftAzureAdministrator-master\Allfiles\Labs\06" "https://st1623.blob.core.windows.net/?sv=2021-06-08&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2022-12-27T19:37:42Z&st=2022-12-27T11:37:42Z&spr=https&sig=x2lF4U7aU6urYk7u0INGMz6DtioL9NQg0PiijG7zzR4%3D" --recursive=true

@@ -1,0 +1,49 @@
+Python Strings
+strings are immutable, can update the strings,
+
+TUPLES
+it is a heterogeneous, immutable,
+use parantheses(), list use [] square brackets
+
+we should write a tuple with one element we should write it as (50,) whereas if it goes without comma(50), it will consider the type as int instead of tuple
+
+it uses less memory than list
+we can use tuple whenever we need temp variables
+
+DICTIONARIES
+work like a key-value pairs, where keys are mapped to value
+it is enclosed by {} curley brackets
+
+
+SETS
+is a collection which is unordered and unindexed.
+written in {} curley brackets
+it will not have any duplicates
+
+FUNCTIONS:
+reusable
+modularity
+
+it is a block of organized reusable code that is used to perform 
+
+syntax:
+def my_function(parameters):
+	doc string
+	function_block
+return expression
+
+function arguments:
+required
+keyword
+default
+variable
+
+Lambda functions
+
+scope of variables
+.local variables
+.global variables
+
+
+pass by value
+pass by reference

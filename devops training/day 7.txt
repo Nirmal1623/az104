@@ -1,0 +1,29 @@
+public member
+
+private member
+two underscore for syntax
+
+protected member
+one underscore for syntax
+
+list iterator
+
+in the list all the values are initalized in the dynamic memory which can be accessed immediately
+in the iterator only one value will be stored in the memory only when the next elemnet will be stored when the function is called
+
+
+JSON
+
+JSON is an semi-structured data
+
+syntax:
+.data is in name/value pairs
+data is separated by commas
+curly braces hold objects
+square braces hold arrays
+
+data types:
+strings
+numbers
+objects
+arrays

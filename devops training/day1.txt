@@ -1,0 +1,24 @@
+cloud services
+Iaas
+Paas
+Saas
+
+Iaas
+the most flexible cloud service
+configure and manage the hardware for your application
+
+Paas
+focus on application development
+platform management is handled by the cloud provider
+
+Saas
+pay-as-u-go pricing
+users pay the software they use on a subscription model
+
+region and region-pair
+region pairs shouldn't be more than 300 miles.
+
+RESOURCE GROUP
+.no rename
+.no nesting RG
+.resources can be any group

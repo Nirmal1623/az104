@@ -1,0 +1,24 @@
+LOOPS:
+while
+for
+nested
+
+loop control:
+break statement
+continue statement
+pass statement
+
+non-primitive data structure:
+.list
+.tuple
+.dictionary
+.sets
+
+LIST
+-collection of objects
+-can consist of numeric array, logical value, matrix, complex vector, char array, function.
+-enclosed b/w two square brackets
+
+lists are mutable
+
+[append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']

@@ -1,0 +1,36 @@
+overview of AWS services
+features of AWS
+flexibility
+scalability
+elasticity
+cost-effective
+
+
+ec2-web service 
+ebs volume-storage
+s3-storage account
+
+
+AWS- 24regions and 84 availability zones
+GCP- 24regions and 74 availability zones
+Azure-60+ regions all over the world
+
+AZ104
+
+
+active directory
+-kerberos
+-LDAP
+
+AAD - azure active directory
+multi tenanat cloud based identify and access management for users
+
+d/f btwen windows active directory and aad
+it doesn't use kerberos, it uses open id connect, O auth, ws federation, samL
+instead of LDAP, Rest API protocol
+trust -> AAD doesn't have trust
+
+cloud only user, guest user, 
+
+groups
+administrative units

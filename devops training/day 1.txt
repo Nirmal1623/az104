@@ -1,0 +1,104 @@
+IT INFRASTRUCTURE
+COMPUTING INFRASTRUCTURE
+
+DATA CENTRE
+PHYSICAL SEVRVER & STORAGE
+
+
+NETWORKING FUNDAMENTALS
+IT INFRASTRUCTURE
+-> TRADITIONAL-physical way
+-> CLOUD-cloud computing
+_> HYPERCONVERGED-windows&linux on same machine
+
+CLOUD-INFRASTRUCTURE
+server&storage services
+database adminstration
+end user
+
+virtualization -> allows for more utilization of physical computer hardware
+benefits
+.resource efficiency
+easier managemnet
+minimal downtime
+faster provisioning
+
+virtualization servers, storage, network, applications
+
+two types of hypervisors
+type1 providers->vmware, microsoft hyper-v, red hat, citrix, kvm
+
+
+MAD(Modern application development)
+best way to design, buid and manage cloud software
+
+
+Monolithic architecture
+microservice
+
+event driven architecture
+key components -> event producer, router, consumer
+
+NETWORKING
+IPV6->128 bit
+IPV4->32 bit -octet decimal represent
+range from 0-255
+each block will be converted into a four digit hexadecimal
+
+class A-lan&wan
+class B-lan&wan
+class C-lan&wan
+class D-multicasting
+class E-research&development
+
+
+127.0.0.1 ->loopback testing address
+
+CIDR(classless inter domain routing)
+OSI model
+
+CYBER SECURITY
+CIA - confidential, integrity, availability
+
+5subnet ID
+1.n/w
+2.gateway
+3&4.dns
+5.host
+
+ORACLE & SQL
+oracle no sequel database
+
+components of database
+.instance
+.database
+
+physical structure
+data files
+control files
+online redo log files
+parameter files
+
+logical structure
+data block
+extents
+segment
+tablespaces
+
+PMON-process monitor
+SMON-system monitor
+DBWn-database writer
+
+backup process
+encrypted backup
+automated database duplication
+
+SECURITY
+
+network address translator
+port address translator
+
+firewall
+SIEM(security information and event managemnet strategy)
+proxy server
+

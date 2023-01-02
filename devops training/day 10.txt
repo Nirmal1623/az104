@@ -1,0 +1,124 @@
+partitions
+
+MBR - master boot record
+gpt - global partition
+
+mbr -> primary & extended partitions
+
+extended can hav 15 logical partitions max
+
+gpt can hav upto 128 partitions
+
+partition command:
+lsblk
+
+
+process related command:
+
+.foreground process
+.background process
+
+fg %1 -> move the process from background to foreground
+
+prog to close the zombie process
+
+#include<stdio.h>
+#include<sys/types.h>
+#include<unistd.h>
+int main()
+{
+pid_t child_pid;
+child_pid = fork();
+if(child_pid>0)
+{
+sleep(100);
+}
+else
+{
+exit(0);
+}
+return 0;
+
+network related command:
+
+ifconfig
+ip addr
+ping
+traceroute -> tracert domain name
+tracepath -> tracepath domain name
+netstat-u -> UDP ports will be displayed
+netstat -t -> TCP ports will be displayed
+netstat-r -> routing table
+
+nslookup google.com
+Server:         192.168.130.6
+Address:        192.168.130.6#53
+
+Non-authoritative answer:
+Name:   google.com
+Address: 142.250.192.46
+Name:   google.com
+Address: 2404:6800:4009:828::200e
+
+dig google.com
+
+; <<>> DiG 9.11.26-RedHat-9.11.26-6.el8 <<>> google.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26182
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4000
+;; QUESTION SECTION:
+;google.com.                    IN      A
+
+;; ANSWER SECTION:
+google.com.             106     IN      A       142.250.192.46
+
+;; Query time: 2 msec
+;; SERVER: 192.168.130.6#53(192.168.130.6)
+;; WHEN: Fri Nov 18 14:49:32 IST 2022
+;; MSG SIZE  rcvd: 55
+
+
+arp
+Address                  HWtype  HWaddress           Flags Mask            Iface
+BLRHVPR18.IN.valtech.co  ether   bc:30:5b:a6:14:78   C                     eth0
+VDC01HLAP3278.IN.valtec  ether   a0:d3:7a:d2:49:43   C                     eth0
+_gateway                 ether   00:a5:bf:9d:91:79   C                     eth0
+VDC01LLAP6065.IN.valtec  ether   40:ec:99:84:f5:6c   C                     eth0
+BLRHVPR19.IN.valtech.co  ether   bc:30:5b:a6:10:9b   C                     eth0
+VDC01HLAP0410.IN.valtec  ether   de:12:b5:98:b6:a7   C                     eth0
+VDC01LLAP6394.IN.valtec  ether   34:c9:3d:b4:be:af   C                     eth0
+
+
+Firewall in Linux:
+
+IPtables
+    |
+.INPUT CHAIN -> 
+.OUTPUT CHAIN -> 
+.FORWARD CHAIN -> responsible for sending the packets
+
+
+Accept
+Reject
+Drop
+
+iptables -L -> to display the current policies and rules in the vm.
+iptables -P FORWARD DROP -> this will change the policy associated.
+
+iptables -A INPUT -s 192.168.1.3 -j DROP
+iptables -I INPUT -s 192.128.1.1 -p tcp -dport 22 -j ACCEPT
+
+
+
+20.172.147.134
+
+commands: to generate a ssh key for VM
+ssh-keygen -b 4096 
+ssh-copy-id Azure_Nirmal@20.172.147.134
+
+
+

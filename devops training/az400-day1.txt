@@ -1,0 +1,73 @@
+sdlc
+
+
+waterfall model:
+adv:
+simple and easy to understand
+works well for small projects
+
+dis:
+customer might get the app after the entire lifecycle
+requirements should be fixed
+
+agile methodology:
+iterative approach
+collaboration
+early delivery
+more flexible
+
+
+scrum methodology:
+sprint planning meeting
+daily-scrum
+sprint review
+sprint restrospective
+
+product-owner
+user-stories
+product backlog
+sprint period(time where the specific work needs to be completed)
+
+people involved in scrum
+process
+product owner
+scrum master
+scrum team
+
+scaling
+horizontal -> scale in & scale out
+vertical -> scale up & scale down
+
+horizontal - increase or decrease of instances
+vertical - increase or decrease of compute resources
+
+devops:
+purpose of devops is to collaborate that developers and IT opeartions
+automation is a key aspect
+fatser delivery of app features
+adoption of right tools
+
+GIT:
+adv
+collaborate and track changes
+saves history
+rollback to any version
+automate tasks
+distributed version control system
+
+TFVC:
+centralised version control system
+historical data is maintained in dev machines
+
+
+
+
+
+
+
+
+
+
+
+
+

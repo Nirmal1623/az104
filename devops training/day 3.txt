@@ -1,0 +1,19 @@
+PYTHON
+ipynb-interactive python notebook(ext for python)
+
+supports two indexing types
+.positive indexing
+.negative indexing
+
+string is a immutable data type
+
+keywords of python -> True, False, None always starts with capital on first letter
+case sensitive
+
+multi-line comments can be used with three quotes """ hi """
+
+primitive data structures:
+int,float,bool,string
+
+^ ->this symbol is used to do an XOR operation in python 
+

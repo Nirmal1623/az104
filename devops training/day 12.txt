@@ -1,0 +1,19 @@
+Web server
+
+certificate for web server
+.self-signed certificate
+.CA (active directory)
+both are local
+
+for public we need to buy the public certificate authority
+
+Forward proxy
+Reverse proxy
+
+benefits:
+.control internet usage of employees
+.bandwidth savings and speed improved
+.privacy benefits
+.improved security
+
+

@@ -1,0 +1,25 @@
+Input and output functions
+
+File operation:
+read,write,append,rb,wb,rb+
+
+MOdules syntax:
+def print_func (par):
+	print "Hello : ", par
+	return
+	
+
+EXCEPTION HANDLING
+.syntax or parsing errors
+.exception or runtime errors
+
+-> types of exception handling(standard)
+.try
+except
+else
+finally
+
+custom -> we used to do for recreating, eg. if a person more than 35yrs should not apply for an interview.
+
+OOPS:
+

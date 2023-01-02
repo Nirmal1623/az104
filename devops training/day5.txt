@@ -1,0 +1,36 @@
+connect local cmd to portal
+
+virtual network
+.naming
+.flexible and seamless
+.room for growth -> should have some space for other resources like bastion, firewall, gateway
+
+advantages of having subnet
+.faster addressing
+.reduces network congestion
+.
+
+5 network address are always taken up in subnets
+1-network address
+2,3-DNS
+4-network gateway
+5-broadcast address
+
+dependency of region for resources is called proximity resources.(e.g) vnet and vm should be on same region.
+
+SKU - stock keeping unit
+
+52.255.191.30-vm0
+172.174.6.56-vm1
+
+Network security group
+firewall - helps to 
+
+
+DNS
+
+vnet
+vnet to vnet
+point to point
+site to point
+point to site

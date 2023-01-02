@@ -1,0 +1,13 @@
+bash
+az group create -l eastus -n MyResourceGroup
+az vm create \
+    --resource-group myResourceGroup \
+    --name myVM \
+    --image Win2022AzureEditionCore \
+    --public-ip-sku Standard \
+    --admin-username azureuser 
+az vm open-port --port 80 --resource-group myResourceGroup --name myVM
+
+az resource move \
+    --ids $myVM $nic $nsg $pip $vnet $storage \
+	--destination-group "myDestinationResourceGroup"

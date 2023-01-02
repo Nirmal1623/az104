@@ -1,0 +1,42 @@
+governance and compliance
+
+.configure subscriptions
+.configure azure policy
+.configure RBAC
+
+availability options
+no infra redundancy - 99.90% -> 43.6mins d/w
+availability zone -99.99%
+
+physical grouping of nodes in fault domain
+logical grouping fault domain (fault domain->racks, max is 3)
+update domain(nodes inside the rack max is 20)
+
+resource groups
+
+locks
+delete lock
+read only lock
+
+resource limits
+.quotas
+
+Tags
+20 tags for one single resource
+
+budgets
+
+
+AZURE POLICY
+
+clubbed policies together is called initiatives
+
+
+labs:
+//csg10032002479d3f50.file.core.windows.net/cs-nirmals1623-outlook-com-10032002479d3f50
+
+
+Administer azure resources
+ARM manager
+
+

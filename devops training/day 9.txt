@@ -1,0 +1,29 @@
+LINUX
+
+echo $? -> check the exit code
+
+ACl->access control list
+
+get facl
+set facl
+
+fix broken sudo in ubuntu
+
+creating hard links and soft links
+hard link - ln -li filename
+soft link - ln -s filename
+
+echo $? -> to check exit code
+
+gzip filename to zip it 
+gunzip filname to unzip it
+
+ls -l f? -> to get a file start with f and one char next
+ls -l f* -> to get a file start with f all files
+
+storage
+file store
+block store
+object store
+
+

@@ -1,0 +1,120 @@
+object persistent using the shell
+
+
+pickling
+converting object to byte-stream
+
+unpickiling- converting byte-stream to object
+
+YAML:
+
+#key value pair
+"apple":"An Apple a day keeps the doctor away"
+1: "this is my roll number"
+---
+#--- 3 hyphens separates the objects
+
+#list
+- apple
+- orange
+- grapes
+
+cities:
+ - Chennai
+ - Bangalore
+ - Kolkata
+ - Delhi
+ 
+ 
+#string variables
+name : "Nirmal"
+degree : "B.E CSE"
+Job: "DevOps Engineer"
+
+number: 3964
+marks : 78.9
+booleanvalues: No #False, false, FALSE
+
+#specify the type
+zero: !!int 0
+positiveNum: !!int 43
+binaryNum: !!int 0b11101
+commavalues: !!int 540_000 #540.000
+marks: !!float 61.32
+not a num: !! .nan
+
+date: !!timestamp 2022-12-14
+
+ztudent: !!seq
+- marks
+- name
+- roll no
+
+#sparse seq
+sparse: !!seq
+-
+-
+-
+- how
+-
+-
+- fruits:
+ - apple
+ - banana
+ - grapes
+- student_details:
+ - name
+ - roll no
+ - marks
+
+
+names: !!set
+ ? Nirmal
+ ? Lamrin
+
+
+---
+#Reusing the same properties
+likings: &likes
+ fav fruits: Strawberry
+ nonfav fruits: Kiwi
+
+person1:
+ name: Nirmal
+ fav fruits: Mango
+ nonfav fruits: kiwi
+
+person2:
+ name: Jaya
+ <<: *likes
+ nonfav fruits: kiwi
+
+school:
+- name: DPS
+- student:
+ - roll no: 1
+ - name: Nirmal
+ - subject: ENglish
+ - Marks: 91
+
+
+CRICKETER:
+ - name: VK
+ - Age: 34
+ - details:
+  - Bat: RHB
+  - Bowl: Medium
+  - Matches:
+   - ODI: 12,344
+   - Test: 8,074
+   - T20: 4,008
+   - IPL: 2,338
+   
+   
+postman operations:
+CRUD
+Create -> POST
+Retrieve ->GET
+Update/Patch ->PUT
+Delete -> Delete
+

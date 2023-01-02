@@ -1,0 +1,87 @@
+DBMS
+s/w for creating storing & retriving date
+db access languges
+2 types: DDL & DML
+
+data definition languges
+implements db schema at physical, ogical and external level
+
+physical level - describes how a record
+logical level- describes how a data stored
+external level- hide details of data types
+
+DML:
+used to access database. retriving, modify, and insert&delete data from DB.
+
+NO SQL DB:
+unstructured or non-relational
+not mandatory that dtaa should be in a table format
+
+4 popular non-relational db models
+.document data store
+.key value store
+.column oriented DB
+.graph database
+
+ACID properties
+atomicity-> if a transcation is successfull or not, even if it failed at any stage it is failed
+consistency->
+isolation->wthout interference
+durability->
+
+DDL commands:
+create, alter, drop
+
+DML commands:
+select, insert, update, delete
+
+DCL commands:
+grant, revoke
+
+transcation management
+concurrency control manager
+
+ER model:
+to avoid redundancy
+to reduce
+represwntation to real-worlds
+represwntation of overall logical data
+top-bottom approach
+useful as a tool btwen designer and user
+
+disadvantages:
+no industry standaer ro develop
+information loss
+
+
+entity:
+it could be a concrete or abstract
+distinguisable from other objects
+
+attribute:
+an entity has a set of attributes
+attribute has value for each entity
+value may change over time
+same set of attributes are defined for entity in a set
+
+an attribute can be have more value
+
+multi-value attribute
+primary key attribute
+composite attribute
+derived attribute
+single-valued attribute
+null-valued attribute
+
+Weak entity
+
+relationship entity
+uses a diamond cut symbol
+has a linker line between the two entities
+
+ex: a student entity with a course entity
+
+one-to-one
+one-to-many
+many-to-one
+many-to-N

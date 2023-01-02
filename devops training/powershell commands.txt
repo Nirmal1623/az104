@@ -1,0 +1,52 @@
+$PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+$PasswordProfile.Password = "Nirmal1623!^@#"
+New-AzureADUser -DisplayName "New User" -PasswordProfile $PasswordProfile -UserPrincipalName "NewUser@contoso.com" -AccountEnabled $true -MailNickName "Newuser"
+
+
+powershell
+New-AzResourceGroup -Name 'myResourceGroup' -Location 'EastUS'
+New-AzVm `
+    -ResourceGroupName 'myResourceGroup' `
+    -Name 'myVM' `
+    -Location 'East US' `
+    -VirtualNetworkName 'myVnet' `
+    -SubnetName 'mySubnet' `
+    -SecurityGroupName 'myNetworkSecurityGroup' `
+    -PublicIpAddressName 'myPublicIpAddress' `
+    -OpenPorts 80,3389
+
+	
+Move-AzResource -DestinationResourceGroupName "myDestinationResourceGroup" `
+    -ResourceId '/subscriptions/e01320f4-d7fd-45f5-9057-ad69aada895c/resourceGroups/MyResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM'
+	
+	
+CREATE A VNET USING POWERSHELL
+
+New-AzResourceGroup -Name MyResourceGroup -Location "East US"
+New-AzDdosProtectionPlan -ResourceGroupName MyResourceGroup -Name MyDdosProtectionPlan -Location "East US"
+
+#Gets the DDoS protection plan ID
+$ddosProtectionPlanID = Get-AzDdosProtectionPlan -ResourceGroupName MyResourceGroup -Name MyDdosProtectionPlan
+
+#Creates the virtual network
+New-AzVirtualNetwork -Name MyVnet -ResourceGroupName MyResourceGroup -Location "East US" -AddressPrefix 10.0.0.0/16 -DdosProtectionPlan $ddosProtectionPlanID.Id -EnableDdosProtection	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//creating useraz ad user create --display-name user1 --password Password@1234 --user-principal-name user1@dhanushdevops2001gmail.onmicrosoft.com//create a groups using cliaz group create -l eastus -n IT-Team//creating ad group using cliaz ad group create --display-name IT-Team --mail-nickname IT-Team// listing groupsaz group list//checking member added or notaz ad group member check --group IT-Team --member-id 7e6ed51c-e548-42ba-8105-fb24c7270cce//adding member to the groupaz ad group member add --group IT-Team --member-id 7e6ed51c-e548-42ba-8105-fb24c7270cceaz resource show -g IT-Team -n myvm --resource-type "Microsoft.Compute/virtualMachines"//moving resource from one group to other//adding policy to a resource$rg = Get-AzResourceGroup -Name 'basic'$definition = Get-AzPolicyDefinition | Where-Object { $_.Properties.DisplayName -eq 'Audit VMs that do not use managed disks' }New-AzPolicyAssignment -Name 'audit-vm-manageddisks' -DisplayName 'Audit VMs without managed disks Assignment' -Scope $rg.ResourceId -PolicyDefinition $definition

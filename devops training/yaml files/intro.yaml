@@ -1,0 +1,10 @@
+#key value pair
+"apple":"An Apple a day keeps the doctor away"
+1: "this is my roll number"
+---
+#--- 3 hyphens separates the objects
+
+#list
+- apple
+- orange
+- grapes

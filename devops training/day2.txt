@@ -1,0 +1,11 @@
+azure storage services
+container
+blob
+cosmos DB
+sql DB
+Iot hub
+central Iot
+
+sla
+composite sla
+sla with multi-regions

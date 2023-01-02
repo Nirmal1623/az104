@@ -1,0 +1,27 @@
+1. by using & we can move the process to the background
+
+2. kill process id, if needs to delete multiple process id kill -9 can be used.
+
+3. we can use the crontab to run the process which he needs.
+
+4. ifconfig > txt1, ip addr > txt2,  uname -a > txt3
+df --Show information about the file system on which each FILE resides,or all file systems by default
+   du --Summarize disk usage of the set of FILEs, recursively for directories
+cat /proc/cpuinfo --   displays what type of processor your system is running including the number of CPUs present
+cat /proc/meminfo to determine how much memory the computer has. This command displays the information stored in the meminfo file located in the /proc directory
+
+
+5. partitions -- To create a new partition
+ifconfig -- stands for "interface configuration." It is used to view and change the configuration of the network interfaces on your system
+cat /etc/fstab -- Linux system's filesystem table, aka fstab , is a configuration table designed to ease the burden of mounting and unmounting file systems
+uname –a --displays the information about the system like kernal,os,hardware etc
+
+
+
+6.sudo df >> /test.txt ;sudo du >> /test.txt ;sudo ip addr >> /test.txt ;sudo cat /proc/cpuinfo >> /test.txt ;sudo /proc/meminfo >> /test.txt ; etc....
+
+7. >> networking.txt
+
+9. ssh username@ipaddress  and it will ask for password
+
+10. sudo traceroute 8.8.8.8 >> /traceroutegoogle.txt
